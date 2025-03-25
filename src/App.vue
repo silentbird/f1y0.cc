@@ -12,6 +12,9 @@
             <router-link to="/blog" class="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
               博客
             </router-link>
+            <router-link to="/sites" class="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
+              个人网站
+            </router-link>
             <router-link to="/about" class="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
               关于
             </router-link>
