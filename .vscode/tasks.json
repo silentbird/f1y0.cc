@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "vue-dev",
+            "type": "shell",
+            "command": "fnm use 22.14 && npm run dev",
+            "isBackground": true,
+            "problemMatcher": {
+                "pattern": {
+                    "regexp": "^.*$"
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*",
+                    "endsPattern": "VITE v\\d+\\.\\d+\\.\\d+.*ready in \\d+ms"
+                }
+            }
+        }
+    ]
+} 
